@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/song_list_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/material_keyline_quarter">
+    <!--    <com.cooltechworks.views.shimmer.ShimmerRecyclerView-->
+    <!--        android:id="@+id/listSongs1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:visibility="gone"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:demo_child_count="10"-->
+    <!--        app:demo_layout="@layout/demo_item"-->
+    <!--        app:demo_layout_manager_type="linear_vertical"-->
+    <!--        tools:ignore="InefficientWeight" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Name:" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist Name:" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+</LinearLayout>
